@@ -37,31 +37,35 @@ a {
 .logo {
 	float:left;
 }
-.nav {
+.firstnav {
 	float: right;
 	padding-top: 40px;
 }
 
-.nav li {
+
+
+.firstnav li {
 	float:left;
 	margin-right: 40px;
 	list-style-type: square;
 	color: #ffe600;
 }
 
-.nav a{
+.firstnav a{
 	text-transform: uppercase;
 	font: 14px  Arial, sans-serif;
 	color: #fff;
 }
 
-.nav li:last-child {
+.firstnav a:hover {
+	color:#ffe600;
+ }
+
+.firstnav li:last-child {
 	margin-right: 0;
 }
 
-.nav li:first-child a {
-	color: #ffe600;
-}
+
 #wrapper {
 	
 }
@@ -224,14 +228,42 @@ h2.titlewhite {
 	color: #515151;
 	cursor: pointer;
 }
-.portfolio li:first-child p{
+
+.portfoli p:hover {
 	color: #ffe600;
 }
+
 .p-table {
 	border-collapse : collapse;
 	text-align: center;
 }
 
+.hover {
+	position: relative;
+	width: 320px;
+	height: 250px;
+	
+}
+
+.hover2 {
+	position: absolute;
+	display: none;
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%;
+	background: url(images/Mask.png);
+	opacity: 0.9;
+}
+
+.hover2 h2 {
+	padding-top: 110px;
+	font-size: 25px;
+}
+
+.hover:hover .hover2{
+	display: block;
+}
 
 .btn2 {
 	background: #ffe600;
@@ -242,6 +274,15 @@ h2.titlewhite {
 	font: bold 18px Arial, sans-serif;
 	border-radius: 4px;
 }
+
+.btn2:hover {
+	background: black;
+	color: #ffe600;
+	cursor: pointer;
+}
+
+
+
 .box1{
 	padding-bottom: 50px;
 	padding-top: 65px;
@@ -296,6 +337,7 @@ div.descr p {
 }
 #team {
 	background-color: #fbfbfb;
+	padding-bottom: 0;
 }
 
 .team-item {
@@ -311,3 +353,214 @@ div.descr p {
 	padding-top: 10px;
 	color: #ffe600;
 }
+
+.team-member {
+	background: #131316;
+	text-align: left;
+}
+
+.team-member h2{
+	color: #ffe600;
+	padding-top: 60px;
+	padding-left: 200px;
+}
+
+.team-member p {
+	color: #fff;
+	padding-left: 200px;
+}
+
+.social {
+	border: 2px solid #fff;
+	border-radius: 4px;
+	width:38px;
+	height: 38px;
+	display: inline-block;
+	text-align: center;
+	margin-right:15px;
+}
+
+.socialall {
+	margin: 25px 0 0 220px;
+	padding-bottom: 40px;
+
+}
+
+
+.social img {
+	padding-top: 12px;
+
+}
+
+.social:hover {
+	background-color: #ffe600;
+}
+#arrowTeam {
+	width: 59px;
+	height: 20px;
+	padding-left: 30%;
+}
+
+#skills {
+	background: #131a1d;
+}
+
+.canvas {
+	display: inline-block;
+}
+
+#skills h1 {
+	padding-top: 60px;
+	padding-bottom: 25px;
+}
+
+.skills {
+	display: inline-block;
+	width: 240px;
+}
+
+.skills h2 {
+	color: #ffe600;
+	padding-top: 15px;
+}
+.brands {
+	padding-top: 70px;
+	padding-bottom: 120px;
+}
+.brand {
+	height: 100px;
+	width: 18%;
+	background: center no-repeat;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#comentscont {
+	text-align: center;
+	width: 2200px;
+    position: relative;
+    left: 0px;
+    transition: left .5s ease-in-out;
+}
+.content {
+    float: left;
+    width: 550px;
+    height: 350px;
+    white-space: normal;
+    background-repeat: no-repeat;
+}
+#coments p {
+	padding-top: 40px;
+	padding-bottom: 20px;
+	color: #fff;
+	font:  18px/18px  sans-serif;
+}
+#coments h2 {
+	padding-top: 30px;
+
+}
+
+
+#coments {
+    width: 550px;
+    height: 350px;
+    overflow: hidden;
+
+}
+#nLinks {
+    text-align: center;
+    width: 550px;
+}
+#nLinks ul {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    margin-top: 6px;
+ }
+#nLinks ul li {
+    float: left;
+    text-align: center;
+    margin: 10px;
+    list-style: none;
+    cursor: pointer;
+    background-color: #ffe600;
+    padding: 5px;
+    border: black 5px solid;
+ }
+#nLinks ul li:hover {
+    background-color: #FFFF00;
+ }
+#nLinks ul li.active {
+    background-color: #333333;
+    color: #FFFFFF;
+    outline-width: 7px;
+ }
+ #nLinks ul li.active:hover {
+    background-color: #484848;
+   color: #FFFFFF;
+ }
+
+ #comenters {
+ 	background: #131a1d;
+}
+
+#mycont {
+	padding-left: 30%;
+}
+
+
+.contact-wrap {
+	padding-top: 60px;
+	
+}
+
+.contact-item{
+	float:left;
+	width: 30%;
+	padding-top:  20px;
+	padding-right:  6px;
+}
+
+.contact-item h2{
+	padding-top: 30px;
+}
+
+ #send input {
+   display: inline-block;
+   margin-bottom: 10px;  
+   width: 25%;
+   height: 60px;
+   margin-right: 20px;
+    }
+
+textarea {
+	width: 90%;
+	height: 220px;
+}
+.err {
+    background: red;
+    }
+
+ #form {
+ 	color: #131a1d;
+ }  
+ #arrowtop {
+ 	height: 60px;
+ 	width: 60px;
+ 	background: #ffe600;
+ 	margin-left: 47%;
+ } 
+ #arrowtop:hover {
+ 	background: #ffb800;
+ }
+#arrowtop img {
+	padding-top: 20px;
+}
+
+ #last {
+ 	background: black;
+ 	}
+
+ #last .socialall {
+ 	margin-left: 0;
+ }	
