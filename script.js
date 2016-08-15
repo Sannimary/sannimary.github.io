@@ -419,7 +419,7 @@ function showVisible1(){
 	
 
 	function rightSlide () {
-		var sliders2 = ['images/logo2.png','images/logo3.png','images/logo4.png', 'images/logo5.png', 'images/logo6.png'];
+		var sliders2 = ['images/logo2.png','images/logo3.png','images/logo4.png', 'images/logo5.png', 'images/logot.png'];
  		var brand = document.getElementsByClassName("brand");
 		
 		for (var i = 0; i < brand.length; i++){
@@ -431,7 +431,7 @@ function showVisible1(){
 	rightSlide();
 
 	var slider2 = {
-	slides2:['images/logo2.png','images/logo3.png','images/logo4.png', 'images/logo5.png', 'images/logo6.png'],
+	slides2:['images/logo2.png','images/logo3.png','images/logo4.png', 'images/logo5.png', 'images/logot.png'],
 	frame:0, 
 	set: function(image) { 
 		 
@@ -449,7 +449,7 @@ function showVisible1(){
 	};
 
 	var slider3 = {
-	slides2:['images/logo2.png','images/logo3.png','images/logo4.png', 'images/logo5.png', 'images/logo6.png'],
+	slides2:['images/logo2.png','images/logo3.png','images/logo4.png', 'images/logo5.png', 'images/logot.png'],
 	frame:1, 
 	set: function(image) { 
 		 
@@ -467,7 +467,7 @@ function showVisible1(){
 	};
 
 	var slider4 = {
-	slides2:['images/logo2.png','images/logo3.png','images/logo4.png', 'images/logo5.png', 'images/logo6.png'],
+	slides2:['images/logo2.png','images/logo3.png','images/logo4.png', 'images/logo5.png', 'images/logot.png'],
 	frame:2, 
 	set: function(image) { 
 		 
@@ -485,7 +485,7 @@ function showVisible1(){
 	};
 
 	var slider5 = {
-	slides2:['images/logo2.png','images/logo3.png','images/logo4.png', 'images/logo5.png', 'images/logo6.png'],
+	slides2:['images/logo2.png','images/logo3.png','images/logo4.png', 'images/logo5.png', 'images/logot.png'],
 	frame:3, 
 	set: function(image) { 
 		 
@@ -503,7 +503,7 @@ function showVisible1(){
 	};
 
 	var slider6 = {
-	slides2:['images/logo2.png','images/logo3.png','images/logo4.png', 'images/logo5.png', 'images/logo6.png'],
+	slides2:['images/logo2.png','images/logo3.png','images/logo4.png', 'images/logo5.png', 'images/logot.png'],
 	frame:4, 
 	set: function(image) { 
 		 
